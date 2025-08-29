@@ -56,7 +56,7 @@
                                  &to 0             &kp TAB            &kp SPACE    &kp BACKSPACE  &kp ENTER  &to 2
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_DN PG_UP &scroll_l_r>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&scroll_l_r>;
         };
 
         raise_layer {
@@ -67,7 +67,9 @@
                             &to 1        &kp TAB  &kp SPACE    &kp BACKSPACE  &kp ENTER  &none
             >;
 
-            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW &inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         adjust_layer {
