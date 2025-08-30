@@ -56,7 +56,9 @@
                                  &to 0             &kp TAB            &kp SPACE    &kp BACKSPACE  &kp ENTER  &to 2
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&scroll_l_r>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp C_BRI_UP C_BRI_DN>;
         };
 
         raise_layer {
@@ -69,7 +71,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
+                <&inc_dec_kp C_BRI_UP C_BRI_DN>;
         };
     };
 };
