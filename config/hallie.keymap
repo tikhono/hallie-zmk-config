@@ -51,10 +51,10 @@
 
         ukranian {
             bindings = <
-&trans  &kp UK_CYRILLIC_SHORT_I  &kp UK_CYRILLIC_TSE  &kp UK_CYRILLIC_U   &kp UK_CYRILLIC_KA  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp UK_CYRILLIC_EF       &kp UK_UKRAINIAN_I   &kp UK_CYRILLIC_VE  &kp UK_CYRILLIC_A   &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp UK_CYRILLIC_YA       &kp UK_CYRILLIC_CHE  &kp UK_CYRILLIC_ES  &kp UK_CYRILLIC_EM  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                                      &to 0               &trans              &trans    &trans  &trans  &to 2
+&trans  &kp UK_CYRILLIC_SHORT_I  &kp UK_CYRILLIC_TSE  &kp UK_CYRILLIC_U   &kp UK_CYRILLIC_KA  &trans    &trans  &kp UK_CYRILLIC_EN  &kp UK_CYRILLIC_GHE        &kp UK_CYRILLIC_SHA  &kp UK_CYRILLIC_SHCHA  &kp UK_CYRILLIC_ZE
+&trans  &kp UK_CYRILLIC_EF       &kp UK_UKRAINIAN_I   &kp UK_CYRILLIC_VE  &kp UK_CYRILLIC_A   &trans    &trans  &kp UK_CYRILLIC_ER  &kp UK_CYRILLIC_O          &kp UK_CYRILLIC_EL   &kp UK_CYRILLIC_DE     &kp UK_CYRILLIC_ZHE
+&trans  &kp UK_CYRILLIC_YA       &kp UK_CYRILLIC_CHE  &kp UK_CYRILLIC_ES  &kp UK_CYRILLIC_EM  &trans    &trans  &kp UK_CYRILLIC_TE  &kp UK_CYRILLIC_SOFT_SIGN  &kp UK_CYRILLIC_BE   &kp UK_CYRILLIC_YU     &kp UK_UKRAINIAN_IE
+                                                      &to 0               &trans              &trans    &trans  &trans              &to 2
             >;
         };
 
