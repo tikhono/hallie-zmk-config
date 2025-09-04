@@ -51,10 +51,10 @@
 
         ukranian {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &to 0   &trans  &trans    &trans  &trans  &to 2
+&trans  &kp UK_CYRILLIC_SHORT_I  &kp UK_CYRILLIC_TSE  &kp UK_CYRILLIC_U   &kp UK_CYRILLIC_KA  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp UK_CYRILLIC_EF       &kp UK_UKRAINIAN_I   &kp UK_CYRILLIC_VE  &kp UK_CYRILLIC_A   &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp UK_CYRILLIC_YA       &kp UK_CYRILLIC_CHE  &kp UK_CYRILLIC_ES  &kp UK_CYRILLIC_EM  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                                      &to 0               &trans              &trans    &trans  &trans  &to 2
             >;
         };
 
