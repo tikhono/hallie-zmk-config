@@ -56,6 +56,10 @@
 &kp UK_CYRILLIC_YA       &kp UK_CYRILLIC_CHE  &kp UK_CYRILLIC_ES  &kp UK_CYRILLIC_EM  &kp UK_CYRILLIC_I   &trans    &trans  &kp UK_CYRILLIC_TE  &kp UK_CYRILLIC_SOFT_SIGN  &kp UK_CYRILLIC_BE   &kp UK_CYRILLIC_YU  &kp UK_UKRAINIAN_IE
                                                                   &to 0               &trans              &trans    &trans  &trans              &to 2
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         sumbols_and_numbs {
