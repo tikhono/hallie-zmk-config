@@ -38,17 +38,7 @@
     hold-trigger-on-release;
 };
 
-tapping-term-ms = <280>;
-         quick-tap-ms = <175>;
-         require-prior-idle-ms = <150>;
-         flavor = "balanced";
-
-hold-trigger-on-release {
-    ;
-};
-
-/
-
+/ {
 macros {
     en_to_ua: LANG {
         compatible = "zmk,behavior-macro";
