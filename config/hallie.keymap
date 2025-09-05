@@ -30,6 +30,14 @@
 
 &lt { quick_tap_ms = <200>; };
 
+&mt {
+    tapping-term-ms = <280>;
+    quick-tap-ms = <175>;
+    require-prior-idle-ms = <150>;
+    flavor = "balanced";
+    hold-trigger-on-release;
+};
+
 tapping-term-ms = <280>;
          quick-tap-ms = <175>;
          require-prior-idle-ms = <150>;
@@ -70,6 +78,9 @@ macros {
         bindings = <&to 1 &kp CAPS>;
         label = "NUMS_TO_UA";
     };
+};
+
+macros {
 };
 
 macros {
