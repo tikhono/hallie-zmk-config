@@ -75,6 +75,9 @@ macros {
 macros {
 };
 
+macros {
+};
+
 keymap {
     compatible = "zmk,keymap";
 
@@ -93,10 +96,10 @@ keymap {
 
     ukranian {
         bindings = <
-&kp UK_CYRILLIC_SHORT_I  &kp UK_CYRILLIC_TSE  &kp UK_CYRILLIC_U   &kp UK_CYRILLIC_KA  &kp UK_CYRILLIC_IE  &trans    &trans  &kp UK_CYRILLIC_EN  &kp UK_CYRILLIC_GHE        &kp UK_CYRILLIC_SHA  &kp UK_CYRILLIC_ZE  &kp UK_CYRILLIC_HA
-&kp UK_CYRILLIC_EF       &kp UK_UKRAINIAN_I   &kp UK_CYRILLIC_VE  &kp UK_CYRILLIC_A   &kp UK_CYRILLIC_PE  &trans    &trans  &kp UK_CYRILLIC_ER  &kp UK_CYRILLIC_O          &kp UK_CYRILLIC_EL   &kp UK_CYRILLIC_DE  &kp UK_CYRILLIC_ZHE
-&kp UK_CYRILLIC_YA       &kp UK_CYRILLIC_CHE  &kp UK_CYRILLIC_ES  &kp UK_CYRILLIC_EM  &kp UK_CYRILLIC_I   &trans    &trans  &kp UK_CYRILLIC_TE  &kp UK_CYRILLIC_SOFT_SIGN  &kp UK_CYRILLIC_BE   &kp UK_CYRILLIC_YU  &kp UK_UKRAINIAN_IE
-                                                                  &ua_to_en           &trans              &trans    &trans  &trans              &ua_to_nums
+&kp UK_CYRILLIC_SHORT_I  &kp UK_CYRILLIC_TSE          &kp UK_CYRILLIC_U            &kp UK_CYRILLIC_KA              &kp UK_CYRILLIC_IE             &trans    &trans  &kp UK_CYRILLIC_EN              &kp UK_CYRILLIC_GHE              &kp UK_CYRILLIC_SHA           &kp UK_CYRILLIC_ZE            &kp UK_CYRILLIC_HA
+&kp UK_CYRILLIC_EF       &mt LEFT_GUI UK_UKRAINIAN_I  &mt LEFT_ALT UK_CYRILLIC_VE  &mt LEFT_CONTROL UK_CYRILLIC_A  &mt LEFT_SHIFT UK_CYRILLIC_PE  &trans    &trans  &mt RIGHT_SHIFT UK_CYRILLIC_ER  &mt RIGHT_CONTROL UK_CYRILLIC_O  &mt RIGHT_ALT UK_CYRILLIC_EL  &mt RIGHT_GUI UK_CYRILLIC_DE  &kp UK_CYRILLIC_ZHE
+&kp UK_CYRILLIC_YA       &kp UK_CYRILLIC_CHE          &kp UK_CYRILLIC_ES           &kp UK_CYRILLIC_EM              &kp UK_CYRILLIC_I              &trans    &trans  &kp UK_CYRILLIC_TE              &kp UK_CYRILLIC_SOFT_SIGN        &kp UK_CYRILLIC_BE            &kp UK_CYRILLIC_YU            &kp UK_UKRAINIAN_IE
+                                                                                   &ua_to_en                       &trans                         &trans    &trans  &trans                          &ua_to_nums
         >;
 
         sensor-bindings =
