@@ -30,9 +30,16 @@
 
 &lt { quick_tap_ms = <200>; };
 
-&mt { quick_tap_ms = <200>; };
+tapping-term-ms = <280>;
+         quick-tap-ms = <175>;
+         require-prior-idle-ms = <150>;
+         flavor = "balanced";
 
-/ {
+hold-trigger-on-release {
+    ;};
+
+/
+
     macros {
         en_to_ua: LANG {
             compatible = "zmk,behavior-macro";
@@ -69,10 +76,10 @@
 
         english {
             bindings = <
-&kp ESC           &kp B  &kp Y  &kp O           &kp U    &kp SQT          &kp SEMICOLON  &kp L      &kp D      &kp W  &kp V  &kp Z
-&kp BACKSLASH     &kp C  &kp I  &kp E           &kp A    &kp COMMA        &kp PERIOD     &kp H      &kp T      &kp S  &kp N  &kp Q
-&kp LEFT_BRACKET  &kp G  &kp X  &kp J           &kp K    &kp MINUS        &kp SLASH      &kp R      &kp M      &kp F  &kp P  &kp RIGHT_BRACKET
-                                &kp LEFT_SHIFT  &kp TAB  &kp BACKSPACE    &kp SPACE      &kp ENTER  &en_to_ua
+&kp ESC           &kp B  &kp Y  &kp O           &kp U               &kp SQT          &kp SEMICOLON  &kp L      &kp D      &kp W  &kp V  &kp Z
+&kp BACKSLASH     &kp C  &kp I  &kp E           &mt LEFT_CONTROL A  &kp COMMA        &kp PERIOD     &kp H      &kp T      &kp S  &kp N  &kp Q
+&kp LEFT_BRACKET  &kp G  &kp X  &kp J           &kp K               &kp MINUS        &kp SLASH      &kp R      &kp M      &kp F  &kp P  &kp RIGHT_BRACKET
+                                &kp LEFT_SHIFT  &kp TAB             &kp BACKSPACE    &kp SPACE      &kp ENTER  &en_to_ua
             >;
 
             sensor-bindings =
