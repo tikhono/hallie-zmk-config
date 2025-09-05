@@ -70,15 +70,6 @@ macros {
     };
 };
 
-macros {
-};
-
-macros {
-};
-
-macros {
-};
-
 keymap {
     compatible = "zmk,keymap";
 
